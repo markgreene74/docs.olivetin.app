@@ -151,6 +151,7 @@
 ** xref:reference/includes.adoc[Includes]
 * Troubleshooting
 ** xref:troubleshooting/wheretofindhelp.adoc[Where to find help]
+** xref:troubleshooting/browser-console-logs.adoc[Browser console logs (WebUI)]
 ** xref:troubleshooting/sosreport.adoc[SOSReport]
 ** xref:troubleshooting/puid-pgid.adoc[No PUID/PGID support]
 ** xref:troubleshooting/log-debug-options.adoc[Log Debug Options]
