@@ -11,13 +11,13 @@ When **showVersionNumber** is enabled (the default):
 
 * The page footer shows the application name and version, for example: **OliveTin 2024.06.02**.
 * If xref:reference/updateChecks.adoc[update checks] are enabled and a newer version exists, a link to the new version may appear in the footer.
-* The xref:troubleshooting/sosreport.adoc[SOS Report] includes the installed version.
+* xref:troubleshooting/server-diagnostics.adoc[Server diagnostics] includes the installed version.
 
 When **showVersionNumber** is disabled:
 
 * The footer shows only **OliveTin** (no version number).
 * No update-version link is shown, even if update checks are on.
-* The SOS Report has the version information redacted, which can be useful for privacy when sharing the report.
+* In server diagnostics output, the version information is redacted, which can be useful for privacy when sharing the report.
 
 == Configuration
 
@@ -67,4 +67,4 @@ defaultPolicy:
 
 * xref:security/acl.adoc[Access Control Lists] — how policies and ACLs work
 * xref:reference/updateChecks.adoc[Update Checks] — how OliveTin checks for new versions
-* xref:troubleshooting/sosreport.adoc[SOS Report] — version is included or redacted based on this policy
+* xref:troubleshooting/server-diagnostics.adoc[Server diagnostics] — version is included or redacted based on this policy

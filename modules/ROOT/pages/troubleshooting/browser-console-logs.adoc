@@ -51,3 +51,5 @@ Safari hides the console until you turn on the Develop menu:
 == Share the logs
 
 Attach the screenshot or pasted text to a xref:troubleshooting/wheretofindhelp.adoc[Discord or GitHub support] message, along with your OliveTin version and how you access it (direct URL, reverse proxy, etc.). That combination helps diagnose WebUI issues much faster than a description of the screen alone.
+
+If the problem might be on the server (OliveTin not starting, actions failing, API errors), also collect xref:troubleshooting/service-logs.adoc[service logs] from Docker, Podman, or systemd.
